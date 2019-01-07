@@ -1,0 +1,19 @@
+{
+  "name": "triviafy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "animate.css": "^3.7.0",
+    "bulma": "^0.7.2",
+    "node-wsdl": "^1.0.1",
+    "soap": "^0.25.0",
+    "spin.js": "^4.0.0",
+    "spotify-web-sdk": "^0.2.2"
+  }
+}

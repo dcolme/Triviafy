@@ -1,0 +1,76 @@
+
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Triviafy</title>
+  <link rel="stylesheet" href="node_modules/bulma/css/bulma.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="node_modules/animate.css/animate.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+
+</head>
+
+<body>
+
+  <div id="songData">
+
+  </div>
+
+  <h1 id="triviafy">Triviafy</h1>
+
+  <div id="audioVisual"></div>
+
+  <script src="https://sdk.scdn.co/spotify-player.js"></script>
+
+  <div id="wrapper">
+    <div id="container" class="box">
+
+      <!--  OPTIONS-->
+      <div id="optionsRow">
+        <div class="option">
+          <button id="option1" class="button is-light">
+          </button>
+        </div>
+        <div class="option">
+          <button id="option2" class="button is-light">
+          </button>
+        </div>
+        <div class="option">
+          <button id="option3" class="button is-light">
+          </button>
+        </div>
+        <div class="option">
+          <button id="option4" class="button is-light">
+          </button>
+        </div>
+
+        <!-- PROGRESS BAR  -->
+        <progress id="progressBar" class="progress is-medium is-success" value="0" max="100"></progress>
+
+        <!-- NEXT SONG BUTTON -->
+        <button id="nextSong" class="button is-dark"> <b> Next song </b> </button>
+        <div id="loading"> </div>
+
+        <!-- START -->
+
+      </div>
+      <div id="lds-ellipsis" hidden><div></div><div></div><div></div><div></div></div>
+      <button id="start" class="button is-light is-large is-loading animated jackInTheBox" disabled> Start </button>
+    </div>
+
+  </div>
+
+
+
+  <script src="js/bundle.js"></script>
+
+
+</body>
+
+</html>
